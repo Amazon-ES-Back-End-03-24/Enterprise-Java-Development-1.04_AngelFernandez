@@ -12,7 +12,7 @@ public class Tarea3 {
 
     public static double calcularResultado(int x, int y) {
         // Calcula el resultado de la expresión matemática
-        double resultado = Math.pow(x, 2) + Math.pow((4 * y / 5 - x), 2);
+        double resultado = Math.pow(x, 2) + Math.pow((4.0 * y / 5.0 - x), 2);
         return resultado;
     }
 }
